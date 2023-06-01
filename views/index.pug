@@ -1,0 +1,56 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+              div#logo
+                  img(src="/static/img/th.jpeg")
+                  | HDA 
+              li #[a(href="/") home]
+              li #[a(href="/") about]
+              li #[a(href="/") services]
+              li #[a(href="/") class info]
+              li #[a(href="/") contact us]
+
+    section#introSection
+        div Welcome to Dance Academy
+        div.small  Eat sleep and dance
+    section#mission 
+        h2 Our mission
+        div.card 
+          h3 Dance perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/4.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card 
+          h3 Dance as way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card 
+          h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+    section#sponshersSection 
+        h2 Our sponsors
+        div#sponsers
+            img(src= "/static/img/com_1.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/com_2.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/com_3.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/com_4.png", alt= "Sponsor Image", class= "spImage")
+
+    footer#footer 
+        | copyright@2023DanceAcademy.com | All right reserved.
+    script
+      include ../static/index.js

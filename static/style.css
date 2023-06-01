@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&family=Rye&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#navbar{
+    padding: 13px 14px;
+    background-color: black;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li a:hover{
+    color: rgb(27, 12, 159);  
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar ul a{
+    text-decoration: none;
+    padding: 13px 4px;
+    font-size: 25px;
+    font-family: 'Neuton', serif;
+    color: #e9d3d3;
+    padding: 15px;
+}
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241 225 225);
+    height: 300px;
+    justify-content: center;
+    font-family: 'Rye', cursive;
+    align-items: center;
+    font-size: 40px;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    color: #ff0780;   
+}
+
+div.small{
+    font-size: 25px;
+}
+
+#sponshersSection{
+    height: 250px;
+    background-color: #16b391c7;
+}
+
+#mission{
+    height: 300px;
+    width: 70%;
+    margin: auto;
+    
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 200px;
+    width: 25%;
+    display: inline-block;
+    margin: 20px 40px;
+    background-color: #e20c58;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 101px;
+    padding: 0 5px;
+    margin: 5px 1px;
+}
+
+.card-img img{
+    height: inherit; 
+}
+
+.card-content{
+    font-size: 10px;
+    padding: 0px 6px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#mission h2{
+    font-family: 'Rye', cursive;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card h3{
+    font-family: 'Rye', cursive;
+    font-size: 15px;
+    padding-top: 12px;
+    text-align: center;
+    font-size: 15px;
+    margin: 15px;
+}
+
+#sponshersSection h2{
+    font-family: 'Rye', cursive;
+    padding-top: 12px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#sponsers{
+    height: 10px;
+    max-width: 125px;
+    margin: 13px 300px;
+    display: flex;
+    padding: 20px;
+}
+
+.spImage{
+    height: 120px;
+    margin: 15px;
+}
+
+#footer{
+    align-items: center;
+    background-color: #0e0d0d;
+    height: 60px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Rye', cursive;
+}
